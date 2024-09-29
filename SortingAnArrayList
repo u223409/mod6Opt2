@@ -1,0 +1,63 @@
+package mod6Opt2;
+//importing needed utlities
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+public class SortingAnArrayList {
+
+//creating the Array list for student database with 3 differnt categories
+static Object [] student = new Object [10];
+static List<Object> database = new ArrayList<Object>();
+
+ int rollno;
+ String name;
+ String address;
+
+public void setRollNo(int ROLLNOASSIGNED) {
+	rollno = ROLLNOASSIGNED;
+}
+public void setName(String NAMEASSIGNED) {
+	name = NAMEASSIGNED;
+}
+public void setAddress(String ADDRESSASSIGNED) {
+	address = ADDRESSASSIGNED;
+}
+	static public Object[] newStudent(int newStudentRollNum, String newStudentName, String newStudentAddress) {
+		student[0] = newStudentRollNum;
+		student[1] = newStudentName;
+		student[2] = newStudentAddress;
+		
+	database.addAll(Arrays.asList(student));
+	
+	return student;
+	}
+// creating an input scanner to allow the user to input the student database
+	public static void main (String [] args) {
+        Scanner scnr=new Scanner(System.in);
+        System.out.println("Enter Student Info:");
+        int n=scnr.student();
+        int newStudent = 0;
+        int arr[] = new int[n];
+        System.out.println("Enter values of each unit: ");
+        for(int i=0;i<n;i++)
+        {
+           object[i]=scnr.nextInt();
+        }
+        student = database(rollno, name, address);
+        System.out.println("All the students"+ students);
+    }
+	// Sorting the Array list
+	 public static void main(String [] args) {
+		 int rollno;
+		 int i; 
+	      System.out.print("Student list by rollno: ");
+	    	      for (i = 0; i < rollno.length; ++i) {
+	         System.out.print(rollno[i] + " ");
+	      }
+	      System.out.println();
+	   }
+	}
+	
