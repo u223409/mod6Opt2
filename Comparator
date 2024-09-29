@@ -1,0 +1,17 @@
+package mod6Opt2;
+
+public class Comparator extends SortingAnArrayList {
+
+	public Comparator() {
+		// Sorting the Array list
+		 public static void main(String [] args) {
+			 int rollno;
+			 int i; 
+		      System.out.print("Student list by rollno: ");
+		    	      for (i = 0; i < rollno.length; ++i) {
+		         System.out.print(rollno[i] + " ");
+		      }
+		      System.out.println();
+		   }
+		}
+		
